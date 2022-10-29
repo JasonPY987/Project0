@@ -1,14 +1,19 @@
-h1  {
-    position: relative;
-    left: 30px;
-    border: 3px solid;
-    border-color: aqua;
-    border-radius: 20px;
-    padding: 20px;
-    background-color: black;
-    color: red;
-    width: 50%;  
+
+header {
+  background-color: aqua;
 }
+
+
+body {
+  background-color: slategrey;
+}
+
+//pretty header in css?
+
+
+
+
+
 
 /* 
 
