@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- -->
+    <meta charset="UTF-8" />
+    <meta content="dark" name="color-scheme" />
+    <!-- this is the meta -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
+
     <!-- link to CSS-->
     <link rel="stylesheet" href="styles.css" />
+    <!-- title for the project-->
     <title>Corey Hill CS50 Project 0</title>
   </head>
 
   <body>
     <header>
       <!-- navigation tab for images, advanced search and HOME-->
-      <ul class="navbar">
+      <ul>
         <li><a href="Images.HTML">Images</a></li>
         <li><a href="Advanced.HTML">Advanced Search</a></li>
         <li><a href="index.html">HOME</a></li>
+        <li><i class="fa fa-th>"></li>
+        <li><i class="fa fa-user "></i></li>  
       </ul>
     </header>
 
     <section>
-      <form action="https://google.com/search">
-        <input type="text" name="q" />
-        <input type="submit" value="Google Search" />
-      </form>
+      <div class="Google_Image">
+        <img src="Manifest\googlelogo_light_color_272x92dp.png" alt="Google Image" />
+      </div>
+      
+      <form action="https://google.com/search" target="_blank">
+        <div class="search_bar">
+            <i class="fa fa-search"></i>
+            <input type="text" name="q">
+        </div>
+        <div class="search_buttons">
+            <input type="submit" value="Google Search">
+        </div>
+    </form>
+      
     </section>
-  </body>
-
-  <footer>
-    <ul class="Footer NavBar">
-      <li><a href="Images.HTML">Privacy</a></li>
-      <li><a href="Advanced.HTML">Terms</a></li>
-      <li><a href="index.html">Setting</a></li>
-    </ul>
+    <footer>
+      <div class="footer1">
+      </div>
+      <div class="footer2">
+          <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+          </ul>
+      </div>
   </footer>
+</body>
 </html>
