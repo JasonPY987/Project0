@@ -2,26 +2,56 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <li><a href="Images.HTML">Images</a></li>
-    <li><a href="Advanced.HTML">Advanced Search</a></li>
-    <li><a href="index.html">HOME</a></li>
+    <meta content="dark" name="color-scheme" />
+    <!-- this is the meta -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- link to CSS-->
+    <link rel="stylesheet" href="images.css" />
+    <!-- title for the project-->
+    <title>Corey Hill CS50 Project 0</title>
   </head>
+
   <body>
+    <header>
+      <!-- navigation tab for images, advanced search and HOME-->
+      <ul>
+        <li><a href="Images.HTML">Images</a></li>
+        <li><a href="Advanced.HTML">Advanced Search</a></li>
+        <li><a href="index.html">HOME</a></li>
+    </header>
+
     <section>
-      <form action="https://google.com/search">
-        <input type="text" name="q" class="searchbar" />
-        <input hidden="true" name="tbm" value="isch" />
-        <input type="submit" value="Image Search" class="searchbutton" />
-      </form>
+      <div class="Google_Image">
+        <img src="Manifest\googlelogo_light_color_272x92dp.png" alt="Google Image" />
+      </div>
+      
+      <form action="https://google.com/search" target="_blank">
+        <div class="search_bar">
+            <input type="text" name="q">
+        </div>
+        <div>
+          <input hidden="true" name="tbm" value="isch" />
+        </div>
+        <div class="search_buttons">
+            <input type="submit" value="Image Search">
+        </div>
+    </form>
+      
     </section>
-  </body>
+    <footer>
+      <div class="footer1">
+      </div>
+      <div class="footer2">
+          <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Settings</a></li>
+          </ul>
+      </div>
+  </footer>
+</body>
 </html>
-
-
-
-
-
-
