@@ -2,12 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta content="dark" name="color-scheme" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <li><a href="Images.HTML">Images</a></li>
-    <li><a href="Advanced.HTML">Advanced Search</a></li>
-    <li><a href="index.html">HOME</a> </li>
+    <link rel="stylesheet" href="Advanced.css">
+    <title>Corey Hill CS50 Project 0</title>
   </head>
-  <body></body>
+
+
+  <body>
+      <header>
+        <ul>
+          <li><a href="Images.HTML">Images</a></li>
+          <li><a href="Advanced.HTML">Advanced Search</a></li>
+          <li><a href="index.html">HOME</a> </li>
+       </ul>
+      </header>
+  
+      <div class="AdvancedHead">
+        Advanced Search
+      </div>
+      
+      <div class="Line">
+        <hr>
+      </div>
+
+      <div class="Div-1">
+        <p class="Pages">Find pages with...</p>
+      </div>
+
+      <section>
+        
+        <div class="container">
+            <form action="https://google.com/search" target="_blank">
+                <div class="label_item1">
+                    <label for="1" >all these words: </label>
+                </div>
+                <div class="input_item1">
+                    <input id="1" type=text name="as_q">
+                </div>
+                <div class="label_item2">
+                    <label for="2" >this exact word or phrase: </label>
+                </div>
+                <div class="input_item2">
+                    <input id="2" type=text name="as_epq">
+                </div>
+                <div class="label_item3">
+                    <label for="3">any of these words: </label>
+                </div>
+                <div class="input_item3">
+                    <input id="3" type=text name="as_oq">
+                </div>
+                <div class="label_item4">
+                    <label for="4">none of these words:</label>
+                </div>
+                <div class="input_item4">
+                    <input id="4" type=text name="as_eq">
+                </div>
+                <div class="button">
+                    <input type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+  </body>
 </html>
